@@ -1,0 +1,5 @@
+[api]
+googleClientID="<Your google client id>"
+googleClientSecret="<Your google client secret>"
+apiURL="http://localhost:8080"
+googleCallBack="/google/callback"
