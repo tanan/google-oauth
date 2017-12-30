@@ -1,7 +1,6 @@
 package config
 
 import (
-	"fmt"
 	"github.com/BurntSushi/toml"
 )
 
@@ -19,9 +18,7 @@ type ApiConfig struct {
 }
 
 func init() {
-	//_, err := toml.DecodeFile("config.tml", &AppCon)
-	_, err := toml.DecodeFile("/Users/tanan/Programming/go/src/github.com/google-oauth/config.tml", &AppCon)
-	fmt.Println(AppCon.Api.GoogleClientID)
+	_, err := toml.DecodeFile("config.tml", &AppCon)
 	if err != nil {
 		panic(err)
 	}
