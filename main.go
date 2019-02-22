@@ -1,6 +1,6 @@
 package main
 
-import "github.com/google-oauth/router"
+import "github.com/tanan/google-oauth/router"
 
 func main() {
 	router.Router.Run(":8080")

@@ -1,7 +1,7 @@
 package google
 
 import (
-	"github.com/google-oauth/config"
+	"github.com/tanan/google-oauth/config"
 	"golang.org/x/oauth2"
 )
 

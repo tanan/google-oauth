@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/google-oauth/controllers"
+	"github.com/tanan/google-oauth/controllers"
 )
 
 var Router *gin.Engine

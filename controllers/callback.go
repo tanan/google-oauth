@@ -3,7 +3,7 @@ package controllers
 import (
 	"context"
 	"errors"
-	"github.com/google-oauth/google"
+	"github.com/tanan/google-oauth/google"
 	v2 "google.golang.org/api/oauth2/v2"
 )
 

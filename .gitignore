@@ -1,3 +1,5 @@
 config.production.tml
 google-oauth
 vendor/
+.idea/
+Gopkg.lock

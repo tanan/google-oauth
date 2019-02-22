@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/google-oauth/google"
+import "github.com/tanan/google-oauth/google"
 
 type ConnectController struct {
 }
